@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Experience artisanal coffee and a cozy community atmosphere at Anusharma. The perfect spot for your morning brew or evening wind-down.">
+    <title>Anusharma | Artisanal Coffee & Community</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header id="main-header">
+        <nav class="container">
+            <div class="logo">
+                <a href="#hero">Anu<span>sharma</span></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">Our Story</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#reservations">Reservations</a></li>
+            </ul>
+            <div class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section"
+            style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1501339819358-ee83cadeafc1?auto=format&fit=crop&q=80&w=1920') center/cover no-repeat;">
+            <div class="hero-content container">
+                <h1 class="fade-in">Where Every Cup Tells a Story</h1>
+                <p class="fade-in-delayed">Discover the finest artisanal coffee in the heart of the city. Hand-roasted
+                    beans, expert baristas, and an atmosphere designed for connection.</p>
+                <div class="hero-btns fade-in-delayed">
+                    <a href="#menu" class="btn btn-primary">View Menu</a>
+                    <a href="#reservations" class="btn btn-secondary">Reserve a Table</a>
+                </div>
+            </div>
+            <div class="hero-scroll-indicator">
+                <span>Scroll</span>
+                <div class="line"></div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section container">
+            <div class="section-grid">
+                <div class="text-content">
+                    <span class="section-tag">Since 2018</span>
+                    <h2>Crafted with Passion & Precision</h2>
+                    <p>At Anusharma, we believe coffee is more than just a beverage; it's an experience. We source our
+                        beans from small-batch sustainable farms, ensuring every sip contributes to a better world.</p>
+                    <p>Whether you're looking for a quiet corner to work or a vibrant space to catch up with friends,
+                        our café is designed to be your second home.</p>
+                    <a href="#" class="text-link">Learn More About Our Beans &rarr;</a>
+                </div>
+                <div class="image-content">
+                    <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&q=80&w=800"
+                        alt="Cozy interior of Anusharma" id="about-img">
+                </div>
+            </div>
+        </section>
+
+        <section id="menu" class="menu-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Our Curated Menu</h2>
+                    <p>From classic espressos to seasonal specialties and freshly baked pastries.</p>
+                </div>
+                <div class="menu-tabs">
+                    <button class="tab-btn active" data-category="coffee">Coffee</button>
+                    <button class="tab-btn" data-category="tea">Tea & Botanicals</button>
+                    <button class="tab-btn" data-category="pastries">Pastries</button>
+                </div>
+                <div class="menu-grid" id="menu-container">
+                    <!-- Menu items will be injected by JS or hardcoded for now -->
+                    <div class="menu-item coffee">
+                        <div class="item-header">
+                            <h3>Signature Latte</h3>
+                            <span class="price">$5.50</span>
+                        </div>
+                        <p>House-made lavender syrup with choice of oat or dairy milk.</p>
+                    </div>
+                    <div class="menu-item coffee">
+                        <div class="item-header">
+                            <h3>Pour Over</h3>
+                            <span class="price">$6.00</span>
+                        </div>
+                        <p>Rotating single-origin beans, brewed with precision.</p>
+                    </div>
+                    <div class="menu-item coffee">
+                        <div class="item-header">
+                            <h3>Flat White</h3>
+                            <span class="price">$4.75</span>
+                        </div>
+                        <p>Velvety micro-foam over a double shot of espresso.</p>
+                    </div>
+                    <div class="menu-item coffee">
+                        <div class="item-header">
+                            <h3>Cold Brew</h3>
+                            <span class="price">$5.00</span>
+                        </div>
+                        <p>Steeped for 18 hours for a smooth, chocolatey finish.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="gallery-section container">
+            <div class="section-header">
+                <h2>The Atmosphere</h2>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item"><img
+                        src="https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&q=80&w=800"
+                        alt="Barista at work"></div>
+                <div class="gallery-item"><img
+                        src="https://images.unsplash.com/photo-1498804103079-a6351b050096?auto=format&fit=crop&q=80&w=800"
+                        alt="Latte art"></div>
+                <div class="gallery-item h-2"><img
+                        src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&q=80&w=800"
+                        alt="Café seating"></div>
+                <div class="gallery-item"><img
+                        src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&q=80&w=800"
+                        alt="Fresh pastries"></div>
+                <div class="gallery-item"><img
+                        src="https://images.unsplash.com/photo-1453614512568-c4024d13c247?auto=format&fit=crop&q=80&w=800"
+                        alt="Coffee beans"></div>
+            </div>
+        </section>
+
+        <section id="reservations" class="reservation-section">
+            <div class="container">
+                <div class="reservation-card">
+                    <div class="res-text">
+                        <h2>Book Your Table</h2>
+                        <p>Planning a meeting or a special occasion? Reserve your spot in advance.</p>
+                        <ul class="info-list">
+                            <li><strong>Open Hours:</strong> 7 AM - 9 PM Daily</li>
+                            <li><strong>Address:</strong> 123 Heritage Lane, Anusharma</li>
+                            <li><strong>Phone:</strong> (555) 123-4567</li>
+                        </ul>
+                    </div>
+                    <form id="booking-form" class="res-form">
+                        <div class="input-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="email@example.com" required>
+                        </div>
+                        <div class="row">
+                            <div class="input-group">
+                                <label for="date">Date</label>
+                                <input type="date" id="date" required>
+                            </div>
+                            <div class="input-group">
+                                <label for="time">Time</label>
+                                <input type="time" id="time" required>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary full-width">Reserve Now</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <h3>Anu<span>sharma</span></h3>
+                <p>Nurturing spirits, one cup at a time.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#reservations">Reservations</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h4>Follow Us</h4>
+                <div class="social-icons">
+                    <a href="#" aria-label="Instagram">IG</a>
+                    <a href="#" aria-label="Facebook">FB</a>
+                    <a href="#" aria-label="Twitter">TW</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom container">
+            <p>&copy; 2026 Anusharma. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
